@@ -28,6 +28,6 @@ It calculates total sales, monthly averages, identifies the highest and lowest s
         3. Heatmap of monthly percentage changes
 
 ## Notes
-- The `sales.csv` file should have two columns: `month`, `sales`, `year`, `expenditure` .
+- The `sales.csv` file should have four columns: `month`, `sales`, `year`, `expenditure` .
 - Visualizations are created using **Seaborn** and **Matplotlib**.
 - Designed for **Python 3**.
