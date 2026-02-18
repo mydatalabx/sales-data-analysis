@@ -17,7 +17,7 @@ It calculates total sales, monthly averages, identifies the highest and lowest s
 2. Ensure `sales.csv` and `main.py` are in the same folder.
 3. Run the Python script:
     ```bash
-    python main.py
+    main.py
     ```
 4. The script will:
     - Print summary statistics (total sales, average, highest and lowest months)
