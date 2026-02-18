@@ -1,27 +1,33 @@
 # Sales Data Analysis
-A Python program that analyzes sales data from CSV files and provides insights including total sales, averages, monthly trends, and percentage changes.
 
-## Features
-- Calculate total and average sales
-- Identify highest and lowest performing months
-- Track monthly percentage changes
-- Export summary results
+## Description
+This project analyzes sales data from a CSV spreadsheet using Python.  
+It calculates total sales, monthly averages, identifies the highest and lowest sales months, computes monthly percentage changes, and visualizes the results using Seaborn and Matplotlib.
 
-## Technologies Used
-- Python 3
-- CSV module
+## Files
+- `sales.csv` — the raw sales data
+- `main.py` — Python script for analysis and visualization
+- `README.md` — this file
 
-## How to Run
-1. Ensure you have Python installed
-2. Place your `sales.csv` file in the same directory
-3. Run: `python sales_analysis.py`
+## How to Use
+1. Install the required Python packages if you don’t already have them:
+    ```bash
+    pip install pandas seaborn matplotlib
+    ```
+2. Ensure `sales.csv` and `main.py` are in the same folder.
+3. Run the Python script:
+    ```bash
+    python main.py
+    ```
+4. The script will:
+    - Print summary statistics (total sales, average, highest and lowest months)
+    - Print monthly percentage changes
+    - Display three visualizations:
+        1. Line chart showing monthly sales trend
+        2. Bar chart comparing monthly sales
+        3. Heatmap of monthly percentage changes
 
-## Sample Output
-The program outputs:
-- Monthly percentage changes
-- Total sales across all months
-- Average sales
-- Best and worst performing months
-
-## Project Background
-Created as part of my Python programming coursework to demonstrate data analysis skills.
+## Notes
+- The `sales.csv` file should have two columns: `month` and `sales`.
+- Visualizations are created using **Seaborn** and **Matplotlib**.
+- Designed for **Python 3**.
